@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbc49e5c-a1c1-49b8-bc4b-69d85fe71dfc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/FunctionalTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/VerificationKrakowWordTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FunctionalTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/VerificationKrakowWord.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MainPage.class" afterPath="$PROJECT_DIR$/target/classes/MainPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumPageObject.iml" afterPath="$PROJECT_DIR$/SeleniumPageObject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="VerificationKrakowWordTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/VerificationKrakowWordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +37,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="124">
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -68,6 +69,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/VerificationKrakowWord.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VerificationKrakowWordTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -302,6 +304,9 @@
     <history-entry file="VerificationKrakowWordTest_verifyKrakowWord - 2017.11.01 at 15h 37m 31s.xml">
       <configuration name="VerificationKrakowWordTest.verifyKrakowWord" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VerificationKrakowWordTest_verifyKrakowWord - 2017.11.01 at 15h 48m 57s.xml">
+      <configuration name="VerificationKrakowWordTest.verifyKrakowWord" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="VerificationKrakowWord_verifyKrakowWord - 2017.10.10 at 14h 41m 35s.xml">
       <configuration name="VerificationKrakowWord.verifyKrakowWord" configurationId="JUnit" />
     </history-entry>
@@ -371,7 +376,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/VerificationKrakowWordTest.java</url>
+          <line>7</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -380,8 +394,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -407,8 +421,8 @@
         <state relative-caret-position="119">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -434,8 +448,8 @@
         <state relative-caret-position="119">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,8 +475,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,8 +494,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -516,24 +530,24 @@
         <state relative-caret-position="238">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="124">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VerificationKrakowWordTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
