@@ -12,7 +12,7 @@ public class VerificationKrakowWord {
 
            MainPage google = new MainPage(driver); //related with Mainpage
 
-           google.typeSearchBox();
+           google.typeSearchBox("Kraków");
            google.clickOnLoginButton();
            google.verifyWordKrakow();
     }

@@ -14,8 +14,8 @@ public class MainPage {
 this.driver = driver;
     }
 
-    public void typeSearchBox (){
-        driver.findElement(searchBox).sendKeys("Kraków");
+    public void typeSearchBox (String wording){
+        driver.findElement(searchBox).sendKeys(wording);
     }
 
     public void clickOnLoginButton(){

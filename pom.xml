@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Page Object Pattern</groupId>
-    <artifactId>Selenium Page Object</artifactId>
+    <groupId>Page_Object_Pattern</groupId>
+    <artifactId>Selenium_Page_Object</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
     <dependency>
@@ -13,6 +13,11 @@
         <artifactId>junit-jupiter-api</artifactId>
         <version>5.0.1</version>
     </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.6.0</version>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
